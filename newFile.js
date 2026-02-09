@@ -12,3 +12,8 @@ const b=()=>{
 };
 
 a();
+
+const login = async()=>{
+    await checkHeader();
+    await checkpassword();
+}
