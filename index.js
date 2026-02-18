@@ -6,3 +6,4 @@ const subtracted = subtract(5, 3);
 
 console.log(`Addition: ${added}`);
 console.log(`Subtraction: ${subtracted}`);
+

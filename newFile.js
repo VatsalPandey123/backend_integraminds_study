@@ -3,17 +3,25 @@
 //It is used to keep track of the order of function calls and to manage the execution of the program. 
 // When a function is called, it is added to the callstack, and when it returns, it is removed from the callstack. 
 // The callstack is also used to manage the scope of variables and to handle exceptions.
-const a=()=>{
-    b();
-    console.log("Function A");
-};
-const b=()=>{
-    console.log("Function B");
-};
+// const a=()=>{
+//     b();
+//     console.log("Function A");
+// };
+// const b=()=>{
+//     console.log("Function B");
+// };
 
-a();
+// a();
 
-const login = async()=>{
-    await checkHeader();
-    await checkpassword();
-}
+// const login = async()=>{
+//     await checkHeader();
+//     await checkpassword();
+// }
+
+const http = require("http");
+
+const server = http.createServer((req, res) => {
+    response.add("Initial Setup Demo");
+});
+
+server.listen(3000);
