@@ -1,4 +1,4 @@
-//const products = require("../modules/productmodules");
+// const products = require("../modules/productmodules");
 
 const product = ["iphone", "samsung", "oneplus", "redmi"];
 

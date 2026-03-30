@@ -4,17 +4,17 @@
   "description": "this is demo setup",
   "license": "ISC",
   "author": "",
-  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "npm start",
     "start": "nodemon index.js",
     "dev": "node index.js",
     "build": "echo  > dist.txt"
-    
   },
   "dependencies": {
-    "express": "^5.2.1"
+    "ejs": "^5.0.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3"
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
